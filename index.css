@@ -1,0 +1,213 @@
+
+body, {
+  min-height: 100vh;
+}
+
+
+
+.top_wrapper {
+  padding-top: 60px;
+  height: 600px;
+  background-image: url(mac.jpg);
+  background-size: cover;
+  color: #333;
+}
+
+.top_message {
+  text-align: center;
+  background-color:rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  letter-spacing: 7px;
+  font-size: 30px;
+  line-height: 70px;
+  padding: 60px 0 120px 0;
+  color:#333333;
+}
+.top_message h1, h2{
+  font-size: 40px;
+}
+
+.red_bold {
+  font-weight: bold;
+  color: red;
+}
+
+
+a {
+  display: inline-block;
+  height: 100%;
+  font-size: 26px;
+  line-height: 30px;
+  margin-right: 20px;
+  color: #333333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3;
+}
+
+
+
+.text_center {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.front_text {
+  margin-bottom: 50px;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-size: 80px;
+}
+
+.main_wrapper {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.left_box {
+  width: 50%;
+  text-align: center;
+}
+
+.profile_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 4px;
+}
+
+.right_box {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.right_box p {
+  line-height: 30px;
+}
+
+.right_box h1 {
+  font-size: 30px;
+  line-height: 80px;
+}
+
+.app-wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app-contents {
+  display: flex;
+  width: 95%;
+  height: 800px;
+  margin: 0 auto;
+  
+}
+
+
+
+.app-detail {
+  width: 50%;
+}
+.app_image {
+  width: 85%;
+  height: 400px;
+}
+
+.app-info {
+  width: 50%;
+}
+
+.app-wrapper h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.app-wrapper h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.app-wrapper p{
+  line-height: 30px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 800px) {
+
+.top_wrapper {
+  height: 400px;
+}
+
+.top_message {
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 40px;
+}
+.top_message h1 {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.left_box {
+  width: 100%;
+}
+
+.right_box {
+  text-align: left;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+.app-contents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 300px;
+}
+.app-detail {
+  width: 95%;
+  margin: 0 auto;
+}
+.app_image {
+  width: 90%;
+  height: 300px;
+}
+
+.app-info {
+  width: 90%;
+  padding: 20px;
+}
+
+.front_text {
+  font-size: 40px;
+}
+
+
+}

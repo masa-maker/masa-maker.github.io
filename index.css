@@ -214,8 +214,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0 auto;
-    margin-bottom: 250px;
+    margin: 100px auto;
   }
   .app-detail {
     width: 95%;

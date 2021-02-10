@@ -148,9 +148,6 @@ footer {
   width: 100%;
 }
 
-@media (max-width: 1024px){
-
-}
 
 @media (max-width: 800px) {
 
@@ -210,3 +207,33 @@ footer {
 
 
 }
+
+@media (max-width: 577px) {
+
+  .app-contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+  }
+  .app-detail {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .app_image {
+    width: 90%;
+    height: 300px;
+  }
+  
+  .app-info {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  .front_text {
+    font-size: 40px;
+  }
+  
+  
+  }

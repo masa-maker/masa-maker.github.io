@@ -1,5 +1,6 @@
+
 body, {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 
@@ -56,6 +57,11 @@ a:hover {
   margin-top: 30px;
   
 }
+.text_center2 {
+  text-align: center;
+  margin-top: 30px;
+  
+}
 
 .front_text {
   margin-bottom: 50px;
@@ -103,10 +109,18 @@ a:hover {
 
 .app-wrapper {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .app-contents {
+  display: flex;
+  width: 95%;
+  height: 800px;
+  margin: 0 auto;
+  
+}
+
+.app-contents2 {
   display: flex;
   width: 95%;
   height: 800px;
@@ -187,6 +201,14 @@ footer {
   margin: 0 auto;
   margin-bottom: 100px;
 }
+
+.app-contents2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
 .app-detail {
   width: 95%;
   margin: 0 auto;
@@ -205,15 +227,41 @@ footer {
   font-size: 40px;
 }
 
-
 }
 
 @media (max-width: 577px) {
+
+  .top_message {
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 40px;
+  }
+  .top_message h1 {
+    font-size: 15px;
+  }
+
+  .container h1{
+    font-size: 20px;
+  }
+
+  .container p{
+    font-size: 12px;
+  }
+  
 
   .app-contents {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+
+  .app-contents2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
     margin: 100px auto;
   }
   .app-detail {
@@ -224,6 +272,11 @@ footer {
     width: 90%;
     height: 300px;
   }
+
+.text_center2 {
+  margin-top: 300px;
+  text-align: center;
+}
   
   .app-info {
     width: 90%;
@@ -231,8 +284,21 @@ footer {
   }
   
   .front_text {
-    font-size: 40px;
+    font-size: 30px;
   }
   
+  .app-wrapper h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .app-wrapper h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
   
+  .app_content,
+   app-content1 p {
+    font-size: 12px;
+  }
   }

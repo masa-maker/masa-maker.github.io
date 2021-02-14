@@ -63,6 +63,12 @@ a:hover {
   
 }
 
+.text_center3 {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
 .front_text {
   margin-bottom: 50px;
   font-weight: 300;
@@ -119,6 +125,11 @@ a:hover {
   margin: 0 auto;
   
 }
+.app-contents h1,h2,p,{
+  line-height: 30px;
+}
+
+
 
 .app-contents2 {
   display: flex;
@@ -127,6 +138,15 @@ a:hover {
   margin: 0 auto;
   
 }
+
+.app-contents3 {
+  display: flex;
+  width: 95%;
+  height: 800px;
+  margin: 0 auto;
+  
+}
+
 
 
 
@@ -162,6 +182,10 @@ footer {
   width: 100%;
 }
 
+.text_center3 {
+  margin-top: 60px;
+  text-align: center;
+}
 
 @media (max-width: 800px) {
 
@@ -203,6 +227,19 @@ footer {
 }
 
 .app-contents2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.text_center3 {
+  margin-top: 250px;
+  text-align: center;
+}
+
+.app-contents3 {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -264,6 +301,15 @@ footer {
     height: 100vh;
     margin: 100px auto;
   }
+
+  .app-contents3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 100px auto;
+  }
+
   .app-detail {
     width: 95%;
     margin: 0 auto;
@@ -275,6 +321,11 @@ footer {
 
 .text_center2 {
   margin-top: 300px;
+  text-align: center;
+}
+
+.text_center3 {
+  margin-top: 500px;
   text-align: center;
 }
   
